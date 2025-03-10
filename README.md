@@ -52,6 +52,12 @@ conda env create -f wind.yml
 
 <img src="./figures/multistepimproved.png" alt="Graphical Abstract" width="700"> <!-- Sets the width to 500 pixels -->
 
+## Summary of the Results
+
+<img src="./figures/Nmae.png" alt="Graphical Abstract" width="700"> <!-- Sets the width to 500 pixels -->
+
+<img src="./figures/mae.png" alt="Graphical Abstract" width="700"> <!-- Sets the width to 500 pixels -->
+
 
 
 ## 📦 Trained Models
