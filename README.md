@@ -34,17 +34,23 @@ conda env create -f RL_env.yml
 ## Network Architectures
 
 ### Recursive Forecasting 
+
 <img src="figures/genvit.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+
 <img src="figures/multistepfinis.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
 
 ### Downscaling
 
 <img src="figures/swinlastmdown.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+
+
 <img src="figures/swinlstmsturc.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
 
 ### Combined Approach
 
 <img src="figures/doubleenc.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+
+
 <img src="figures/multistepimproved.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
 
 
