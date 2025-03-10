@@ -25,33 +25,38 @@ Accurate spatio-temporal wind speed forecasting is crucial for optimizing wind e
 
 
 ### Environment Setup
-First, let's set up the Conda environment to get you up and running. For simplicity, the RL environment is provided in the repo. Simply create a new environment using the provide YAML file.
+First, let's set up the Conda environment to get you up and running. For simplicity, the conda environment is provided in the repo. Simply create a new environment using the provide YAML file.
 
 ```bash
-conda env create -f RL_env.yml
+conda env create -f wind.yml
 ```
 
 ## Network Architectures
 
 ### Recursive Forecasting 
 
-<img src="figures/genvit.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
 
-<img src="figures/multistepfinis.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+<img src="/figures/genvit.png" alt="Graphical Abstract" width="700"> <!-- Sets the width to 500 pixels -->
+
+<img src="/figures/multistepfinis.png" alt="Graphical Abstract" width="700"> <!-- Sets the width to 500 pixels -->
 
 ### Downscaling
 
-<img src="figures/swinlastmdown.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+<img src="./figures/swinlastmdown.png" alt="Graphical Abstract" width="700"> <!-- Sets the width to 500 pixels -->
 
-
-<img src="figures/swinlstmsturc.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+<img src="./figures/swinlstmsturc.png" alt="Graphical Abstract" width="700"> <!-- Sets the width to 500 pixels -->
 
 ### Combined Approach
 
-<img src="figures/doubleenc.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+<img src="./figures/doubleenc.png" alt="Graphical Abstract" width="700"> <!-- Sets the width to 500 pixels -->
 
+<img src="./figures/multistepimproved.png" alt="Graphical Abstract" width="700"> <!-- Sets the width to 500 pixels -->
 
-<img src="figures/multistepimproved.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+## Summary of the Results
+
+<img src="./figures/Nmae.png" alt="Graphical Abstract" width="700"> <!-- Sets the width to 500 pixels -->
+
+<img src="./figures/mae.png" alt="Graphical Abstract" width="700"> <!-- Sets the width to 500 pixels -->
 
 
 
