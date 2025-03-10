@@ -14,9 +14,6 @@
 
 ---
 
-![Description of Image](figures/genvit.png)
-
-
 ![Wind Speed Forecasts](simulations/wind.gif)
 
 </div>
@@ -38,24 +35,28 @@ conda env create -f wind.yml
 
 ### Recursive Forecasting 
 <div>
-<img src="/figures/genvit.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+![Description of Image](figures/genvit.png)
 
-<img src="/figures/multistepfinis.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+![Description of Image](figures/genvit.png)
+
+<img src="/figures/genvit.png" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+
+<img src="/figures/multistepfinis.png" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
 
 </div>
 ### Downscaling
 
-<img src="./figures/swinlastmdown.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+<img src="./figures/swinlastmdown.png" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
 
 
-<img src="./figures/swinlstmsturc.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+<img src="./figures/swinlstmsturc.png" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
 
 ### Combined Approach
 
-<img src="./figures/doubleenc.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+<img src="./figures/doubleenc.png" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
 
 
-<img src="./figures/multistepimproved.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+<img src="./figures/multistepimproved.png" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
 
 
 
