@@ -25,20 +25,21 @@ Accurate spatio-temporal wind speed forecasting is crucial for optimizing wind e
 
 
 ### Environment Setup
-First, let's set up the Conda environment to get you up and running. For simplicity, the RL environment is provided in the repo. Simply create a new environment using the provide YAML file.
+First, let's set up the Conda environment to get you up and running. For simplicity, the conda environment is provided in the repo. Simply create a new environment using the provide YAML file.
 
 ```bash
-conda env create -f RL_env.yml
+conda env create -f wind.yml
 ```
 
 ## Network Architectures
 
 ### Recursive Forecasting 
+<div>
+<img src="/figures/genvit.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
 
-<img src="./figures/genvit.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+<img src="/figures/multistepfinis.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
 
-<img src="./figures/multistepfinis.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
-
+</div>
 ### Downscaling
 
 <img src="./figures/swinlastmdown.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
