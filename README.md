@@ -14,7 +14,8 @@
 
 ---
 
-<img src="figures/multistepfinis.pdf" alt="Graphical Abstract" width="500"> <!-- Sets the width to 500 pixels -->
+![Description of Image](figures/genvit.png)
+
 
 ![Wind Speed Forecasts](simulations/wind.gif)
 
