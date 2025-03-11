@@ -32,9 +32,9 @@ conda env create -f wind.yml
 ```
 
 ## Network Architectures
+The networks' architectures are based on Vision Transformers(ViTs)
 
 ### Recursive Forecasting 
-
 
 <img src="/figures/genvit.png" alt="Graphical Abstract" width="700"> <!-- Sets the width to 500 pixels -->
 
@@ -61,4 +61,23 @@ conda env create -f wind.yml
 
 
 ## 📦 Trained Models
-All Weight files for the trained models will be available
+All Weight files for the trained models will be available 
+
+
+- Recursive Forecasting:  
+  - Lead1:➡️ [Download](https://drive.google.com/file/d/1Ovj02T4Ra-D-5Yb5Yg861HabN0JONKT1/view?usp=sharing)
+  - Lead3:➡️ [Download](https://drive.google.com/file/d/148E0IpXsy5saqxv3V6l-GSVII6gMJRLB/view?usp=sharing)
+  - Lead6:➡️ [Download](https://drive.google.com/file/d/1i4CBiwa0qUgISuSa9nfLmLTqDYyRFCyA/view?usp=sharing)
+- Downscaling
+  - D = 8:➡️ [Download](https://drive.google.com/file/d/1cEgoJRR0QULK9zu131_PG32Owgjyl55B/view?usp=sharing)
+  - D = 16:➡️ [Download](https://drive.google.com/file/d/1o0SBoY0loBEeSB64Gi4RB2y8OzdarBt5/view?usp=sharing)
+- Combined Approach
+  - Lead1
+  ---D = 8 ➡️ [Download](https://drive.google.com/file/d/1be2GWVZjEzHf70UVklvk8qUvrYedzq9V/view?usp=sharing)
+  ---D = 16 ➡️ [Download](https://drive.google.com/file/d/1c8jN35jG6pFn_aMUcDSB06f965SI0Od7/view?usp=sharing)
+  - Lead3
+  ---D = 8 ➡️ [Download](https://drive.google.com/file/d/10hDf69330kTDh8KTf06pOKazjbaK8f2_/view?usp=sharing)
+  ---D = 16 ➡️ [Download](https://drive.google.com/file/d/1K3ZgcoyHEziUgKPLZWW4XlhU_RLHJmNx/view?usp=sharing)
+  - Lead6
+  ---D = 8 ➡️ [Download](https://drive.google.com/drive/folders/1Lq_1MXG8BL-diuD9NNijLscBYmtebr5v?usp=sharing)
+  ---D = 16 ➡️ [Download](https://drive.google.com/file/d/18PA0pVh2OK0KePVhxUiIoHbo71rIs2KA/view?usp=sharing)
