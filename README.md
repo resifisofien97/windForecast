@@ -81,3 +81,59 @@ All Weight files for the trained models will be available
   - Lead6
   ---D = 8 ➡️ [Download](https://drive.google.com/drive/folders/1Lq_1MXG8BL-diuD9NNijLscBYmtebr5v?usp=sharing)
   ---D = 16 ➡️ [Download](https://drive.google.com/file/d/18PA0pVh2OK0KePVhxUiIoHbo71rIs2KA/view?usp=sharing)
+
+The weight directory is organized as follows:
+```
+weights
+│   
+└───recursive
+│   └─── lead1
+|   |   
+│   └─── lead3
+|   |  
+│   └─── lead6
+|   |   
+└───down
+│   │   D8
+│   │   D16
+│   |
+└───combined
+│   └─── lead1
+|   |    |   D8
+|   |    |   D16
+│   └─── lead3
+|   |    |   D8
+|   |    |   D16
+│   └─── lead6
+|   |    |   D8
+|   |    |   D16
+```
+
+
+
+The data directory is organized as follows:
+```
+data
+│  u.hdf5
+|  v.hdf5
+|  prs.hdf5
+|  rho.hdf5
+|  t.hdf5
+|  topo.hdf5
+```
+
+
+
+The statistics directory is organized as follows:
+```
+statistics
+| compute_stat.py
+| submitstat.sh
+| submitstatall.sh
+└───stat
+│   | u50m.npy,u80m.npy,u100m.npy,u120m.npy
+|   | v50m.npy,v80m.npy,v100m.npy,v120m.npy
+|   | prs50m.npy,prs80m.npy,prs100m.npy,prs120m.npy
+|   | rho50m.npy,rho80m.npy,rho100m.npy,rho120m.npy
+|   | t50m.npy,t80m.npy,t100m.npy,t120m.npy
+```
