@@ -1,4 +1,8 @@
 <div align="center">
+Note: Code will be made available upon acceptance of the manuscript
+</div>
+
+<div align="center">
 
 # A Novel Deep Learning Approach for Regional High-Resolution Spatio-Temporal Wind Speed Forecasting for Energy Applications
 
@@ -19,7 +23,7 @@
 </div>
    
 ## 📜 Abstract
-Accurate spatio-temporal wind speed forecasting is crucial for optimizing wind energy production. Traditional forecasting relies on numerical weather prediction (NWP) models, which are computationally intensive, especially when implemented on large high-resolution grids. Recently, Deep Learning (DL) has emerged as an efficient alternative, utilizing historical data to learn patterns and predict future conditions. This work develops a regional DL-based forecasting system that reduces the computational burden of physical models, by using a long-term reanalysis dataset for the Arabian Peninsula (AP). The system forecasts hourly wind speed at 5~km spatial resolution up to 48 hours ahead. We focus on vertical levels, corresponding to the hub heights of wind turbines for energy production. We explore two approaches: recursive forecasting, which advances the system's state at a fine scale over time, and downscaling, which refines coarse-resolution forecasts into high-resolution counterparts. Furthermore, we propose merging both approaches by combining the propagation of spatio-temporal dynamics at fine-scale with coarse-scale predictions. The performance of the frameworks was evaluated qualitatively and quantitatively. Results show that the recursive approach accumulates errors over time steps, whereas the downscaling approach effectively generates high-resolution forecasts. Combining both approaches resulted in a more robust framework, demonstrating notably improved performance and stabilized error evolution.
+Accurate spatio-temporal wind speed forecasting is crucial for optimizing wind energy production. Traditional forecasting relies on numerical weather prediction (NWP) models, which are computationally intensive, especially when implemented on large high-resolution grids. Recently, Deep Learning (DL) has emerged as an efficient alternative, utilizing historical data to learn patterns and predict future conditions. This work develops a regional DL-based forecasting system that reduces the computational burden of physical models, by using a long-term reanalysis dataset for the Arabian Peninsula (AP). The system forecasts hourly wind speed at 5 km spatial resolution up to 48 hours ahead. We focus on vertical levels, corresponding to the hub heights of wind turbines for energy production. We explore two approaches: recursive forecasting, which advances the system's state at a fine scale over time, and downscaling, which refines coarse-resolution forecasts into high-resolution counterparts. Furthermore, we propose merging both approaches by combining the propagation of spatio-temporal dynamics at fine-scale with coarse-scale predictions. The performance of the frameworks was evaluated qualitatively and quantitatively. Results show that the recursive approach accumulates errors over time steps, whereas the downscaling approach effectively generates high-resolution forecasts. Combining both approaches resulted in a more robust framework, demonstrating notably improved performance and stabilized error evolution.
 
 ## 🚀 Getting Started
 
@@ -137,3 +141,16 @@ statistics
 |   | rho50m.npy,rho80m.npy,rho100m.npy,rho120m.npy
 |   | t50m.npy,t80m.npy,t100m.npy,t120m.npy
 ```
+
+
+## 📖 Citation
+If you find WindForecast useful in your research, please consider citing:
+
+```bibtex
+@article{resifi5079080novel,
+  title={A Novel Deep Learning Approach for Regional High-Resolution Spatio-Temporal Wind Speed Forecasting for Energy Applications},
+  author={Resifi, Sofien and Al Aawar, Elissar and Hari Prasad, Dasari and Jebari, Hatem and Hoteit, Ibrahim},
+  journal={Available at SSRN 5079080}
+}
+```
+
